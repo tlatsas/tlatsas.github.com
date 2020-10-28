@@ -4,6 +4,7 @@ title: weechat horizontal buffers bar
 date: 2011-08-19 10:26:28
 categories: weechat
 comments: true
+archive: true
 ---
 To get a nice clean buffer bar at the bottom of the screen you need the *buffers.pl* script.
 

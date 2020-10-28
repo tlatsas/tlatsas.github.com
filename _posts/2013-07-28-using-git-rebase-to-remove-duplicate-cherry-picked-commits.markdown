@@ -4,6 +4,7 @@ title: using git rebase to remove duplicate cherry-picked commits
 date: 2013-07-28 01:06:37
 categories: [git, rebase, cherry-pick]
 comments: true
+archive: true
 ---
 
 Git cherry-pick is a great tool, it allows you to select individual commits

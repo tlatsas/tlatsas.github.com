@@ -3,6 +3,7 @@ layout: post
 title: change mysql root password
 date: 2009-07-28 12:33:16 +03:00
 categories: [mysql]
+archive: true
 ---
 If you have forgotten your mysql root password all you need is the root password of the system to create a new one.
 

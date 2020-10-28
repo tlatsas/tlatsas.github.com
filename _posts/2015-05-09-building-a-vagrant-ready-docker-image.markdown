@@ -120,7 +120,7 @@ image we run the `docker run` command. We can see that the default action of thi
 is to run an ssh server.
 
 {% highlight text %}
-$ docker run -i -t vagrant-debian 
+$ docker run -i -t vagrant-debian
 Server listening on 0.0.0.0 port 22.
 Server listening on :: port 22.
 {% endhighlight %}
@@ -158,24 +158,24 @@ end
 and run `vagrant up --provider=docker`.
 
 {% highlight text %}
-$ vagrant up --provider=docker  
+$ vagrant up --provider=docker
 Bringing machine 'docker-example' up with 'docker' provider...
 ==> docker-example: Creating the container...
     docker-example:   Name: tmp_docker-example_1431294926
     docker-example:  Image: vagrant-debian:latest
     docker-example: Volume: /tmp:/vagrant
     docker-example:   Port: 127.0.0.1:2222:22
-    docker-example:  
+    docker-example:
     docker-example: Container created: dbb4b1e104201ba6
 ==> docker-example: Starting container...
 ==> docker-example: Waiting for machine to boot. This may take a few minutes...
     docker-example: SSH address: 172.17.0.25:22
     docker-example: SSH username: vagrant
     docker-example: SSH auth method: private key
-    docker-example: 
+    docker-example:
     docker-example: Vagrant insecure key detected. Vagrant will automatically replace
     docker-example: this with a newly generated keypair for better security.
-    docker-example: 
+    docker-example:
     docker-example: Inserting generated public key within guest...
     docker-example: Removing insecure key from the guest if its present...
     docker-example: Key inserted! Disconnecting and reconnecting using new SSH key...

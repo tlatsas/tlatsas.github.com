@@ -6,11 +6,12 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
-  background-color: #fdfdfd;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  /*font-size: 16px;*/
+  /*line-height: 1.5;*/
+  /*font-weight: 300;*/
+  background-color: #fafafa;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
@@ -213,33 +214,29 @@ a:visited { color: #205caa; }
 
 
 .post code {
-    font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace !important;
+  font-family: 'Fira Code', "Andale Mono", "lucida console", "Courier New", monospace !important;
   border: 1px solid #d5d5e9;
-    padding: 1px 5px;
-    -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
+  padding: 1px 5px;
   border-radius: 3px;
-  font-size: 13px;
+  font-size: 14px;
   overflow: auto;
 }
 
 .post pre {
-    font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace !important;
-    border: 1px solid #002b36;
-    padding: 8px 6px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    font-size: 13px;
-    overflow: auto;
+  font-family: 'Fira Code', "Andale Mono", "lucida console", "Courier New", monospace !important;
+  border: 1px solid #002b36;
+  padding: 8px 6px;
+  font-size: 14px;
+  overflow: auto;
 }
 
 p>code {
-    background: none repeat scroll 0% 0% #FFF;
-    color: #555;
-    border: 1px solid #DDD;
-    border-radius: 0.4em;
-    padding: 0px 0.3em;
-    margin: -1px 0px;
+  background: none repeat scroll 0% 0% #FFF;
+  color: #555;
+  border: 1px solid #DDD;
+  border-radius: 0.4em;
+  padding: 0px 0.3em;
+  margin: -1px 0px;
 }
 
 .post ul,
@@ -256,8 +253,6 @@ p>code {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -303,7 +298,6 @@ p>code {
     float: none;
     clear: both;
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -360,5 +354,4 @@ p>code {
     clear: both;
     width: auto;
     margin: 0 0 15px; }
-
 }

@@ -3,6 +3,7 @@ layout: post
 title: set mysql encoding to utf8
 date: 2009-07-28
 categories: [mysql]
+archive: true
 ---
 This one troubled me for a long time and it also resulted in a corrupted database at some point, because i changed collation encoding to utf8 but the database encoding was latin. (so always make backups and make sure you don't erase them :P )
 

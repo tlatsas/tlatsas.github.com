@@ -1,9 +1,10 @@
---- 
+---
 layout: post
 title: datetime to timestamp in python
 date: 2011-04-19 08:51:27 +03:00
 categories: python
 comments: true
+archive: true
 ---
 Say you got a file's last update time, using the stat command
 {% highlight python %}

@@ -4,6 +4,7 @@ title: installing Arch Linux ARM in Raspberry Pi
 date: 2013-04-29 13:44:38
 categories: [archlinux, rpi]
 comments: true
+archive: true
 ---
 
 This tutorial guides you through the process of installing the ARM flavour of
@@ -71,7 +72,7 @@ Start `fdisk`. The `p` command lists the partitions in the device `/dev/sdb`.
 Then, we delete the the second partition (the roor):
 
 {% highlight text %}
-Command (m for help): d 
+Command (m for help): d
 Partition number (1-4): 2
 Partition 2 is deleted
 {% endhighlight %}
@@ -86,9 +87,9 @@ Partition type:
    e   extended
 Select (default p): p
 Partition number (1-4, default 2): 2
-First sector (186368-15278079, default 186368): 
+First sector (186368-15278079, default 186368):
 Using default value 186368
-Last sector, +sectors or +size{K,M,G} (186368-15278079, default 15278079): 
+Last sector, +sectors or +size{K,M,G} (186368-15278079, default 15278079):
 Using default value 15278079
 Partition 2 of type Linux and of size 7.2 GiB is set
 {% endhighlight %}

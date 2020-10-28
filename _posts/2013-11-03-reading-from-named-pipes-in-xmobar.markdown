@@ -4,6 +4,7 @@ title: reading from named pipes in xmobar
 date: 2013-11-03 17:38:43
 categories: [xmobar, named pipes, volume control]
 comments: true
+archive: true
 ---
 
 I recently noticed that [xmobar](https://github.com/jaor/xmobar) has a plugin to read data from Unix named pipes. Named pipes can be used for inter-process communication (IPC). Two different application can send and read data using named pipes. A named pipe operates much like the normal (unnamed) pipe you use in the shell. The difference is that named pipes must be explicitly created/deleted and they are accessed through the filesystem. You create named pipes using the `mknod` or `mkfifo` commands and delete them with `rm`.
